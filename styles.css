@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #37353E;
+    font-family: "Roboto", sans-serif;
+}
+
+.post {
+    width: 30%;
+
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-left {
+    width: 95%;
+    height: 100%;  
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.header-title h1 {
+    margin: 0%;
+    margin-top: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.header-name p {
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5rem;
+    font-weight: 300;
+}
+
+.header-logo {
+    width: 10%;
+    height: 100%;
+    margin: 0 3% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo i {
+    font-size: 2.3rem;
+}
+
+.header-right {
+    width: 5%;
+    height: auto;
+    display: flex;
+    margin: 0 1% 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-img {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: flex-start;
+    
+    
+}
+
+.post-img img {
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.post-body {
+    width: 100%;
+    margin: 0%;
+    padding:0px;
+}
+
+.post-body-icons {
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0%;
+    padding: 0 15px;
+}
+
+.post-body-icons i {
+    margin: 0%;
+    font-size: 1.3rem;
+}
+
+.post-body-left {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+}
+
+.post-body-right{
+    margin: 0%;
+    padding: 0%;
+}
+
+.post-body-title {
+    margin: 0px;
+}
+.post-body-title p {
+    margin: 0px 0px 0px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 300;
+}
+
+.post-body-message p {
+    margin: 10px 0px 10px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+
+
+
